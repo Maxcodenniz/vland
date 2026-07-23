@@ -131,7 +131,7 @@ export default async function HomePage() {
             <div className="hero-visual-copy">
               <span className="badge">{heroBlock?.visualBadge || 'Visual Storytelling'}</span>
               <h3 style={{ margin: 0, fontSize: '1.5rem' }}>
-                {heroBlock?.visualTitle || 'A brighter, friendlier way to explore and book services.'}
+                {heroBlock?.visualTitle || 'Easy way to explore and book services.'}
               </h3>
               <p className="muted" style={{ margin: 0, lineHeight: 1.7 }}>
                 {heroBlock?.visualDescription ||
