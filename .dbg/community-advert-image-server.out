@@ -1,0 +1,21 @@
+[Debug Server] Trying http://127.0.0.1:7777...
+[Debug Server] Port 7777 occupied, trying 7778...
+[Debug Server] Trying http://127.0.0.1:7778...
+[Debug Server] Listening on http://127.0.0.1:7778
+@@DEBUG_SERVER_INFO
+{
+  "base_url": "http://127.0.0.1:7778",
+  "api_url": "http://127.0.0.1:7778/event",
+  "session_id": "community-advert-image",
+  "log_dir": "/Users/annan-dennis/Documents/trae_projects/Vland/.dbg",
+  "log_file": "/Users/annan-dennis/Documents/trae_projects/Vland/.dbg/trae-debug-log-community-advert-image.ndjson",
+  "env_file": "/Users/annan-dennis/Documents/trae_projects/Vland/.dbg/community-advert-image.env",
+  "endpoints": {
+    "POST /event": "Submit log event",
+    "GET /health": "Server health check",
+    "GET /logs": "Get all logs (supports ?last=N&hypothesisId=X&runId=Y)",
+    "DELETE /logs": "Clear all logs for this session"
+  }
+}
+@@END_DEBUG_SERVER_INFO
+[Debug Server] Idle for 1200s, exiting...
