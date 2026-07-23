@@ -2,7 +2,7 @@ export const siteConfig = {
   name: 'VIDEOLAND MULTIMEDIA',
   legalName: 'VIDEOLAND MULTIMEDIA',
   domain: 'vland.info',
-  email: 'videoland@gmail.com',
+  email: 'vlandmultimedia@gmail.com',
   phone: '0243133780',
   whatsappNumber: '233243133780',
   whatsappLabel: '+233 24 313 3780',
